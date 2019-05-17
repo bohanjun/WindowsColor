@@ -1,14 +1,14 @@
 # WindowsColor.h
 ## FAQ (Frequently Asked Question)
 * ONE
- - Can I use the "WindowsColor.h" on my MacOS?
- - Oooooops! Sorry, temporary not yet.
+  - Can I use the "WindowsColor.h" on my MacOS?
+  - Oooooops! Sorry, temporary not yet.
 * TWO
- - How to use the "WindowsColor.h"?
- - Copy the "WindowsColor.h" to the "include" folder.
+  - How to use the "WindowsColor.h"?
+  - Copy the "WindowsColor.h" to the "include" folder.
 * THREE
- - Why I can't use it?
- - You can try to reboot or reinstall the IDE (Integrated Development Environment).
+  - Why I can't use it?
+  - You can try to reboot or reinstall the IDE (Integrated Development Environment).
 ## E.G
 ```cpp
 #include <cstdio>
@@ -33,7 +33,8 @@ int main()
 	return 0;
 }
 ```
-![Photos 1-1](https://i.loli.net/2019/05/17/5cdec7634b77190702.png)
+![Photo 1-1](https://i.loli.net/2019/05/17/5cdecd0f6403079231.jpg)
+
 ## About The Author
 * Bohan Wei (bohanjun)
 * 12 years old
