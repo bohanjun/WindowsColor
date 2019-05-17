@@ -167,9 +167,9 @@ using namespace std;
 //各种各样【不废话了】的颜色更改函数 
 //颜色更改函数 
 void SetColor(WORD COLOR){SetConsoleTextAttribute(GetStdHandle(-11),COLOR);}
-void SetColor(bool MODE,WORD COLOR){SetConsoleTextAttribute(GetStdHandle(-11),COLOR<<(MODE<<2));}
+void SetColor(bool MODE,WORD COLOR,bool _nothing){SetConsoleTextAttribute(GetStdHandle(-11),COLOR<<(MODE<<2));}
 void SetColor(WORD COLOR_FG,WORD COLOR_BG){SetConsoleTextAttribute(GetStdHandle(-11),(COLOR_BG<<4)|COLOR_FG);}
 //颜色更改函数_保留 
 void _SetColor(WORD COLOR){SetConsoleTextAttribute(GetStdHandle(-11),COLOR);}
-void _SetColor(bool MODE,WORD COLOR){SetConsoleTextAttribute(GetStdHandle(-11),COLOR<<(MODE<<2));}
+void _SetColor(bool MODE,WORD COLOR,bool _nothing){SetConsoleTextAttribute(GetStdHandle(-11),COLOR<<(MODE<<2));}
 void _SetColor(WORD COLOR_FG,WORD COLOR_BG){SetConsoleTextAttribute(GetStdHandle(-11),(COLOR_BG<<4)|COLOR_FG);}
