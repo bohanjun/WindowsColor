@@ -7,8 +7,8 @@
   - How to use the "WindowsColor.h"?
   - Copy the "WindowsColor.h" to the "include" folder.
 * THREE
-  - Why I can't use it?
-  - You can try to reboot or reinstall the IDE (Integrated Development Environment).
+  - Why I can not use the "WindowsColor.h"?
+  - You can try to reboot your computer or reinstall the IDE (Integrated Development Environment).
 ## E.G
 ```cpp
 #include <cstdio>
