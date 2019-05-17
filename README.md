@@ -33,6 +33,7 @@ int main()
 	return 0;
 }
 ```
+![Photos 1-1](https://i.loli.net/2019/05/17/5cdec7634b77190702.png)
 ## About The Author
 * Bohan Wei (bohanjun)
 * 12 years old
