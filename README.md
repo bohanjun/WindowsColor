@@ -34,7 +34,7 @@ int main()
 }
 ```
 <div align=center>
-<imd src="https://i.loli.net/2019/05/17/5cdecd0f6403079231.jpg" />
+    <img src="https://i.loli.net/2019/05/17/5cdecd0f6403079231.jpg" />
 </div>
 
 ## About The Author
