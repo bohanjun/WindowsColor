@@ -33,9 +33,9 @@ int main()
 	return 0;
 }
 ```
-<center>
+<div style="text-align: center">
 ![Photo 1-1](https://i.loli.net/2019/05/17/5cdecd0f6403079231.jpg)
-</center>
+</div>
 
 ## About The Author
 ### Initiator
