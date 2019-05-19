@@ -33,7 +33,7 @@ int main()
 	return 0;
 }
 ```
-<div style="text-align: center">
+<div align=center>
 ![Photo 1-1](https://i.loli.net/2019/05/17/5cdecd0f6403079231.jpg)
 </div>
 
