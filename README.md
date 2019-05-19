@@ -36,6 +36,10 @@ int main()
 ![Photo 1-1](https://i.loli.net/2019/05/17/5cdecd0f6403079231.jpg)
 
 ## About The Author
+### Initiator
 * Bohan Wei (bohanjun)
 * 12 years old
 * Boy
+### Contributor
+* bohanjun
+* MAYBE NEXT ONE ARE YOU...
