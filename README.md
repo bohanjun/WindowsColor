@@ -37,6 +37,17 @@ int main()
     <img src="https://i.loli.net/2019/05/17/5cdecd0f6403079231.jpg" />
 </div>
 
+## Update Event
+### 20190519 v2.0.1
+* Fixed some tiny bugs
+### 20190519 v2.0.0
+* Reconsitution the Classes & Functions
+### 20190512 v1.0.2
+* Fixed some tiny bugs
+### 20190511 v1.0.1
+* Fixed some tiny bugs
+### 20190511 v1.0.0
+* Created this project
 ## About The Author
 ### Initiator
 * Bohan Wei (bohanjun)
