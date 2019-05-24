@@ -16,21 +16,21 @@
 using namespace std;
 int main()
 {
-	SetColor (BROWN_FG);
-	printf ("BROWN_FG\n");
-	SetColor (BLUE_BG);
-	printf ("BLUE_BG\n");
-	SetColor (BLOOD_FG | GRASS_BG); // *** Not GLASS But GRASS!  
-	printf ("BLOOD_FG and GLASS_BG\n");
-	SetColor (FG, CYAN, 0);
-	printf ("CYAN_FG\n");
-	SetColor (BG, INDIGO, 0);
-	printf ("INDIGO_BG\n");
-	SetColor (AZURE, YELLOW);
-	printf ("AZURE_FG and YELLOW_BG\n");
-	SetColor (MAGENTA, GREEN);
-	printf ("MAGENTA_FG and GREEN_BG\n");
-	return 0;
+    SetColor (BROWN_FG);
+    printf ("BROWN_FG\n");
+    SetColor (BLUE_BG);
+    printf ("BLUE_BG\n");
+    SetColor (BLOOD_FG | GRASS_BG); // *** Not GLASS But GRASS!  
+    printf ("BLOOD_FG and GLASS_BG\n");
+    SetColor (FG, CYAN, 0);
+    printf ("CYAN_FG\n");
+    SetColor (BG, INDIGO, 0);
+    printf ("INDIGO_BG\n");
+    SetColor (AZURE, YELLOW);
+    printf ("AZURE_FG and YELLOW_BG\n");
+    SetColor (MAGENTA, GREEN);
+    printf ("MAGENTA_FG and GREEN_BG\n");
+    return 0;
 }
 ```
 <div align=center>
