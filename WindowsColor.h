@@ -2,33 +2,33 @@
 #include<windows.h>
 #include<ostream>
 #include<istream>
-#include<cstdio>
+#include<assert.h>
 
 //令人着迷的【Class】【欧，你太可爱了！】 
 class Color{
-	public:
-		WORD VALUE;
-		Color(const WORD&num=0x00){*this=num;}
-		Color(const Color&_COLOR){this->VALUE=_COLOR.VALUE;}
-		Color&operator=(WORD num){
-			assert(num>=0x00&&num<=0xFF);
-			VALUE=num;
-			return*this;
-		}
-		Color&operator=(Color _COLOR){
-			VALUE=_COLOR.VALUE;
-			return*this;
-		}
-		Color operator+(const Color&_COLOR)const{
-			Color tmp;
-			tmp.VALUE=VALUE+_COLOR.VALUE;
-			return tmp;
-		}
-		Color operator|(const Color&_COLOR)const{
-			Color tmp;
-			tmp.VALUE=VALUE|_COLOR.VALUE;
-			return tmp;
-		}
+    public:
+        WORD VALUE;
+        Color(const WORD&num=0x00){*this=num;}
+        Color(const Color&_COLOR){this->VALUE=_COLOR.VALUE;}
+        Color&operator=(WORD num){
+            assert(num>=0x00&&num<=0xFF);
+            VALUE=num;
+            return*this;
+        }
+        Color&operator=(Color _COLOR){
+            VALUE=_COLOR.VALUE;
+            return*this;
+        }
+        Color operator+(const Color&_COLOR)const{
+            Color tmp;
+            tmp.VALUE=VALUE+_COLOR.VALUE;
+            return tmp;
+        }
+        Color operator|(const Color&_COLOR)const{
+            Color tmp;
+            tmp.VALUE=VALUE|_COLOR.VALUE;
+            return tmp;
+        }
 };
 
 //定义各种各样奇奇怪怪的万分神奇的【颜色常量】 
@@ -206,10 +206,10 @@ void _SetColor(Color COLOR_FG,Color COLOR_BG){SetConsoleTextAttribute(GetStdHand
 
 //【迷人的】的便携式颜色更改【输入输出流】 
 ostream&operator<<(ostream&outStream,const Color&_COLOR){
-	_SetColor(_COLOR);
-	return outStream;
+    _SetColor(_COLOR);
+    return outStream;
 }
 istream&operator>>(istream&inStream,const Color&_COLOR){
-	_SetColor(_COLOR);
-	return inStream;
+    _SetColor(_COLOR);
+    return inStream;
 }
