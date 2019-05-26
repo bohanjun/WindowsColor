@@ -12,6 +12,7 @@
 ## E.G
 ```cpp
 #include <cstdio>
+#include <iostream>
 #include <WindowsColor.h> 
 using namespace std;
 int main()
@@ -20,7 +21,7 @@ int main()
     printf ("BROWN_FG\n");
     SetColor (BLUE_BG);
     printf ("BLUE_BG\n");
-    SetColor (BLOOD_FG | GRASS_BG); // *** Not GLASS But GRASS!  
+    SetColor (BLOOD_FG | GRASS_BG);
     printf ("BLOOD_FG and GLASS_BG\n");
     SetColor (FG, CYAN, 0);
     printf ("CYAN_FG\n");
@@ -28,8 +29,7 @@ int main()
     printf ("INDIGO_BG\n");
     SetColor (AZURE, YELLOW);
     printf ("AZURE_FG and YELLOW_BG\n");
-    SetColor (MAGENTA, GREEN);
-    printf ("MAGENTA_FG and GREEN_BG\n");
+    cout << MAGENTA_FG + GREEN_BG << "MAGENTA_FG and GREEN_BG\n";
     return 0;
 }
 ```
