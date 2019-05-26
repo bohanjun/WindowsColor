@@ -1,4 +1,4 @@
-# WindowsColor.h ![License](https://raw.githubusercontent.com/bohanjun/WindowsColor/master/AGPL-3.0.svg)
+# WindowsColor.h <img src="https://raw.githubusercontent.com/bohanjun/WindowsColor/master/AGPL-3.0.svg" />
 ## FAQ (Frequently Asked Question)
 * ONE
   - Can I use the "WindowsColor.h" on my MacOS?
