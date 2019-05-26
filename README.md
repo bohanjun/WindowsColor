@@ -1,6 +1,6 @@
 # WindowsColor.h
 ## License
-[![License](https://img.shields.io/github/license/wangxinhe2006/docker-judge.svg)]
+![License](https://img.shields.io/github/license/wangxinhe2006/docker-judge.svg)
 ## FAQ (Frequently Asked Question)
 * ONE
   - Can I use the "WindowsColor.h" on my MacOS?
