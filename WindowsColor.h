@@ -16,6 +16,7 @@ class Color{
             return*this;
         }
         Color&operator=(Color _COLOR){
+            assert(_COLOR.VALUE>=0x00&&_COLOR.VALUE<=0xFF);
             VALUE=_COLOR.VALUE;
             return*this;
         }
