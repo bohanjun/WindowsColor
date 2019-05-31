@@ -40,6 +40,8 @@ int main()
 </div>
 
 ## Update Event
+### 20190531 v2.0.5 [Code: Indigo]
+* Fixed some tiny bugs
 ### 20190525 v2.0.3
 * Made some tiny optimizations
 ### 20190519 v2.0.1
