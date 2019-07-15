@@ -20,12 +20,17 @@ class Color{
             VALUE=_COLOR.VALUE;
             return*this;
         }
-        Color operator+(const Color&_COLOR)const{
+        Color operator|(const Color&_COLOR)const{
             Color tmp;
-            tmp.VALUE=VALUE+_COLOR.VALUE;
+            tmp.VALUE=VALUE|_COLOR.VALUE;
             return tmp;
         }
-        Color operator|(const Color&_COLOR)const{
+        Color operator+(const Color&_COLOR)const{
+            Color tmp;
+            tmp.VALUE=VALUE|_COLOR.VALUE;
+            return tmp;
+        }
+        Color operator*(const Color&_COLOR)const{
             Color tmp;
             tmp.VALUE=VALUE|_COLOR.VALUE;
             return tmp;
