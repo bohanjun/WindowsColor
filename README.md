@@ -39,7 +39,9 @@ int main()
     <img src="https://i.loli.net/2019/05/17/5cdecd0f6403079231.jpg" />
 </div>
 
-## Update Event
+## Updating Event
+### 20190531 v2.0.6 [Code: Indigo]
+* Made some tiny optimizations
 ### 20190531 v2.0.5 [Code: Indigo]
 * Fixed some tiny bugs
 ### 20190525 v2.0.3
