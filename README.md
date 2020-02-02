@@ -56,11 +56,3 @@ int main()
 * Fixed some tiny bugs
 ### 20190511 v1.0.0
 * Created this project
-## About The Author
-### Initiator
-* Bohan Wei (bohanjun)
-* 12 years old
-* Boy
-### Contributor
-* bohanjun
-* MAYBE NEXT ONE ARE YOU...
