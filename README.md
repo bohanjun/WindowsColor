@@ -1,7 +1,7 @@
 # WindowsColor.h
 ## 各位大佬，这是我的第一个 GitHub 项目，请不要再嘲笑我的英语/开发能力了QωQ
 ## License
-![License](https://img.shields.io/github/license/wangxinhe2006/dockerjudge.svg)
+![License](https://img.shields.io/github/license/wangxinhe2006/docker-judge.svg)
 ## 问答
 * ONE
   - Can I use the "WindowsColor.h" on my MacOS?
