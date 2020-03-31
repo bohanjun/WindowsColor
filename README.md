@@ -1,7 +1,8 @@
 # WindowsColor.h
+## 各位大佬，这是我的第一个 GitHub 项目，请不要再嘲笑我的英语/开发能力了QωQ
 ## License
 ![License](https://img.shields.io/github/license/wangxinhe2006/docker-judge.svg)
-## FAQ (Frequently Asked Question)
+## 问答
 * ONE
   - Can I use the "WindowsColor.h" on my MacOS?
   - Oooooops! Sorry, temporary not yet.
@@ -11,7 +12,7 @@
 * THREE
   - Why I can not use the "WindowsColor.h"?
   - You can try to reboot your computer or reinstall the IDE.
-## E.G
+## 栗子
 ```cpp
 #include <cstdio>
 #include <iostream>
@@ -39,7 +40,7 @@ int main()
     <img src="https://i.loli.net/2019/05/17/5cdecd0f6403079231.jpg" />
 </div>
 
-## Updating Event
+## 更新
 ### 20190531 v2.0.6 [Code: Indigo]
 * Made some tiny optimizations
 ### 20190531 v2.0.5 [Code: Indigo]
