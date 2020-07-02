@@ -1,5 +1,5 @@
 # WindowsColor.h
-## 各位大佬，这是我的第一个 GitHub 项目，请不要再嘲笑我的英语/开发能力了QωQ
+## 各位大佬，这是俺的第一个 GitHub 项目，请不要再嘲笑我的英语/开发能力了QωQ
 ## 问答
 * ONE
   - Can I use the "WindowsColor.h" on my MacOS?
